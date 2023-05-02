@@ -29,13 +29,9 @@ public class Car {
     public void setModel(String model) {
         this.model = model;
     }
+    public void show(Car car) {
 
-    @Override
-    public String toString() {
-        return "Car{" +
-                "make='" + make + '\'' +
-                ", model='" + model + '\'' +
-                ", year=" + year +
-                '}';
-    }
+    };
+
 }
+
